@@ -1,0 +1,197 @@
+[{"stream_name":"stderr","time":10.861944026,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.862025144,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.862032843,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.862038059,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.611465248,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.611499889,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.611503388,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.611506506,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.291732562,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/316.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m316.0/316.0 kB\u001b[0m \u001b[31m12.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.034255323,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/115.9 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m115.9/115.9 kB\u001b[0m \u001b[31m4.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":20.15878061,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":20.158812445,"data":"nuscenes-devkit 1.2.0 requires descartes, which is not installed.\r\n"}
+,{"stream_name":"stdout","time":20.158818629,"data":"nuscenes-devkit 1.2.0 requires parameterized, which is not installed.\r\n"}
+,{"stream_name":"stdout","time":20.1588238,"data":"nuscenes-devkit 1.2.0 requires numpy\u003c2.0.0,\u003e=1.22.0, but you have numpy 2.0.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":20.158828909,"data":"nuscenes-devkit 1.2.0 requires Shapely~=2.0.3, but you have shapely 2.1.2 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":20.3079754,"data":"\u001b[0m=== Dataset Structure ===\n"}
+,{"stream_name":"stdout","time":20.30801007,"data":"input/\n"}
+,{"stream_name":"stdout","time":20.308018535,"data":"  datasets/\n"}
+,{"stream_name":"stdout","time":20.308021904,"data":"    aadimator/\n"}
+,{"stream_name":"stdout","time":20.35916795,"data":"      nuscenes-mini/\n"}
+,{"stream_name":"stdout","time":20.359192929,"data":"        .v1.0-mini.txt\n"}
+,{"stream_name":"stdout","time":20.359198352,"data":"        samples/\n"}
+,{"stream_name":"stdout","time":21.137535319,"data":"        maps/\n"}
+,{"stream_name":"stdout","time":21.137570023,"data":"          37819e65e09e5547b8a3ceaefba56bb2.png\n"}
+,{"stream_name":"stdout","time":21.137576714,"data":"          93406b464a165eaba6d9de76ca09f5da.png\n"}
+,{"stream_name":"stdout","time":21.137600277,"data":"          36092f0b03a857c6a3403e25b4b7aab3.png\n"}
+,{"stream_name":"stdout","time":21.137605169,"data":"          ... +1 files\n"}
+,{"stream_name":"stdout","time":21.137608972,"data":"        v1.0-mini/\n"}
+,{"stream_name":"stdout","time":21.137612706,"data":"          instance.json\n"}
+,{"stream_name":"stdout","time":21.137616232,"data":"          scene.json\n"}
+,{"stream_name":"stdout","time":21.137620051,"data":"          sample_data.json\n"}
+,{"stream_name":"stdout","time":21.137623842,"data":"          ... +10 files\n"}
+,{"stream_name":"stdout","time":25.462576449,"data":"All imports successful!\n"}
+,{"stream_name":"stdout","time":25.487316298,"data":"DATAROOT = /kaggle/input/datasets/aadimator/nuscenes-mini\n"}
+,{"stream_name":"stdout","time":25.487338894,"data":"Contents: ['samples', '.v1.0-mini.txt', 'maps', 'v1.0-mini', 'sweeps']\n"}
+,{"stream_name":"stdout","time":25.759080174,"data":"======\n"}
+,{"stream_name":"stdout","time":25.759115154,"data":"Loading NuScenes tables for version v1.0-mini...\n"}
+,{"stream_name":"stdout","time":26.275849899,"data":"23 category,\n"}
+,{"stream_name":"stdout","time":26.275888668,"data":"8 attribute,\n"}
+,{"stream_name":"stdout","time":26.275895932,"data":"4 visibility,\n"}
+,{"stream_name":"stdout","time":26.275900879,"data":"911 instance,\n"}
+,{"stream_name":"stdout","time":26.275905742,"data":"12 sensor,\n"}
+,{"stream_name":"stdout","time":26.275910949,"data":"120 calibrated_sensor,\n"}
+,{"stream_name":"stdout","time":26.275915776,"data":"31206 ego_pose,\n"}
+,{"stream_name":"stdout","time":26.275920873,"data":"8 log,\n"}
+,{"stream_name":"stdout","time":26.275926604,"data":"10 scene,\n"}
+,{"stream_name":"stdout","time":26.275931359,"data":"404 sample,\n"}
+,{"stream_name":"stdout","time":26.275936689,"data":"31206 sample_data,\n"}
+,{"stream_name":"stdout","time":26.275942006,"data":"18538 sample_annotation,\n"}
+,{"stream_name":"stdout","time":26.275946743,"data":"4 map,\n"}
+,{"stream_name":"stdout","time":26.275951342,"data":"Done loading in 0.704 seconds.\n"}
+,{"stream_name":"stdout","time":26.275956073,"data":"======\n"}
+,{"stream_name":"stdout","time":26.275962199,"data":"Reverse indexing ...\n"}
+,{"stream_name":"stdout","time":26.275970954,"data":"Done reverse indexing in 0.1 seconds.\n"}
+,{"stream_name":"stdout","time":26.275974465,"data":"======\n"}
+,{"stream_name":"stdout","time":26.27597758,"data":"\n"}
+,{"stream_name":"stdout","time":26.27598074,"data":"Loaded successfully! 404 samples across 10 scenes.\n"}
+,{"stream_name":"stdout","time":26.301159362,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":26.30118864,"data":"nuScenes Mini Dataset Summary\n"}
+,{"stream_name":"stdout","time":26.301194317,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":26.301199113,"data":"Scenes:              10\n"}
+,{"stream_name":"stdout","time":26.301209379,"data":"Samples (keyframes): 404\n"}
+,{"stream_name":"stdout","time":26.301226,"data":"Sample annotations:  18538\n"}
+,{"stream_name":"stdout","time":26.301246403,"data":"Sample data entries: 31206\n"}
+,{"stream_name":"stdout","time":26.301253587,"data":"Instances (objects): 911\n"}
+,{"stream_name":"stdout","time":26.301258107,"data":"Categories:          23\n"}
+,{"stream_name":"stdout","time":26.30126255,"data":"Sensors:             12\n"}
+,{"stream_name":"stdout","time":26.301266909,"data":"\n"}
+,{"stream_name":"stdout","time":26.301281777,"data":"--- Sensors ---\n"}
+,{"stream_name":"stdout","time":26.301285377,"data":"  CAM_FRONT                      | modality: camera\n"}
+,{"stream_name":"stdout","time":26.301288848,"data":"  CAM_BACK                       | modality: camera\n"}
+,{"stream_name":"stdout","time":26.301292197,"data":"  CAM_BACK_LEFT                  | modality: camera\n"}
+,{"stream_name":"stdout","time":26.30129737,"data":"  CAM_FRONT_LEFT                 | modality: camera\n"}
+,{"stream_name":"stdout","time":26.30130403,"data":"  CAM_FRONT_RIGHT                | modality: camera\n"}
+,{"stream_name":"stdout","time":26.301306395,"data":"  CAM_BACK_RIGHT                 | modality: camera\n"}
+,{"stream_name":"stdout","time":26.301308574,"data":"  LIDAR_TOP                      | modality: lidar\n"}
+,{"stream_name":"stdout","time":26.301310828,"data":"  RADAR_FRONT                    | modality: radar\n"}
+,{"stream_name":"stdout","time":26.301313057,"data":"  RADAR_FRONT_RIGHT              | modality: radar\n"}
+,{"stream_name":"stdout","time":26.301315974,"data":"  RADAR_FRONT_LEFT               | modality: radar\n"}
+,{"stream_name":"stdout","time":26.301347201,"data":"  RADAR_BACK_LEFT                | modality: radar\n"}
+,{"stream_name":"stdout","time":26.301351425,"data":"  RADAR_BACK_RIGHT               | modality: radar\n"}
+,{"stream_name":"stdout","time":26.301355701,"data":"\n"}
+,{"stream_name":"stdout","time":26.301359559,"data":"--- Categories ---\n"}
+,{"stream_name":"stdout","time":26.301363399,"data":"  human.pedestrian.adult\n"}
+,{"stream_name":"stdout","time":26.301366719,"data":"  human.pedestrian.child\n"}
+,{"stream_name":"stdout","time":26.301369991,"data":"  human.pedestrian.wheelchair\n"}
+,{"stream_name":"stdout","time":26.301373473,"data":"  human.pedestrian.stroller\n"}
+,{"stream_name":"stdout","time":26.301376844,"data":"  human.pedestrian.personal_mobility\n"}
+,{"stream_name":"stdout","time":26.301380211,"data":"  human.pedestrian.police_officer\n"}
+,{"stream_name":"stdout","time":26.301383454,"data":"  human.pedestrian.construction_worker\n"}
+,{"stream_name":"stdout","time":26.301386837,"data":"  animal\n"}
+,{"stream_name":"stdout","time":26.301390042,"data":"  vehicle.car\n"}
+,{"stream_name":"stdout","time":26.30139335,"data":"  vehicle.motorcycle\n"}
+,{"stream_name":"stdout","time":26.301396596,"data":"  vehicle.bicycle\n"}
+,{"stream_name":"stdout","time":26.301399812,"data":"  vehicle.bus.bendy\n"}
+,{"stream_name":"stdout","time":26.301403047,"data":"  vehicle.bus.rigid\n"}
+,{"stream_name":"stdout","time":26.301406289,"data":"  vehicle.truck\n"}
+,{"stream_name":"stdout","time":26.301409516,"data":"  vehicle.construction\n"}
+,{"stream_name":"stdout","time":26.301412752,"data":"  vehicle.emergency.ambulance\n"}
+,{"stream_name":"stdout","time":26.301416414,"data":"  vehicle.emergency.police\n"}
+,{"stream_name":"stdout","time":26.30143539,"data":"  vehicle.trailer\n"}
+,{"stream_name":"stdout","time":26.301438598,"data":"  movable_object.barrier\n"}
+,{"stream_name":"stdout","time":26.30145227,"data":"  movable_object.trafficcone\n"}
+,{"stream_name":"stdout","time":26.301456157,"data":"  movable_object.pushable_pullable\n"}
+,{"stream_name":"stdout","time":26.301460117,"data":"  movable_object.debris\n"}
+,{"stream_name":"stdout","time":26.301464145,"data":"  static_object.bicycle_rack\n"}
+,{"stream_name":"stdout","time":26.909682425,"data":"Total annotations: 18538\n"}
+,{"stream_name":"stdout","time":26.994551788,"data":"Sample token: 023c4df2d451409881d8e6ea82f14704\n"}
+,{"stream_name":"stdout","time":26.994585002,"data":"Timestamp: 1532402932647284\n"}
+,{"stream_name":"stdout","time":26.994589952,"data":"\n"}
+,{"stream_name":"stdout","time":26.99459337,"data":"RADAR_FRONT               | points:   69 | file: samples/RADAR_FRONT/n015-2018-07-24-11-22-45+0800__RADAR_FRONT__1532402932641364.pcd\n"}
+,{"stream_name":"stdout","time":26.994597133,"data":"RADAR_FRONT_LEFT          | points:   14 | file: samples/RADAR_FRONT_LEFT/n015-2018-07-24-11-22-45+0800__RADAR_FRONT_LEFT__1532402932619586.pcd\n"}
+,{"stream_name":"stdout","time":26.994601028,"data":"RADAR_FRONT_RIGHT         | points:   26 | file: samples/RADAR_FRONT_RIGHT/n015-2018-07-24-11-22-45+0800__RADAR_FRONT_RIGHT__1532402932670933.pcd\n"}
+,{"stream_name":"stdout","time":26.994604745,"data":"RADAR_BACK_LEFT           | points:   62 | file: samples/RADAR_BACK_LEFT/n015-2018-07-24-11-22-45+0800__RADAR_BACK_LEFT__1532402932634472.pcd\n"}
+,{"stream_name":"stdout","time":26.994608392,"data":"RADAR_BACK_RIGHT          | points:   70 | file: samples/RADAR_BACK_RIGHT/n015-2018-07-24-11-22-45+0800__RADAR_BACK_RIGHT__1532402932681572.pcd\n"}
+,{"stream_name":"stdout","time":26.994612431,"data":"\n"}
+,{"stream_name":"stdout","time":26.994615537,"data":"Radar point shape: (18, 70)\n"}
+,{"stream_name":"stdout","time":26.994618778,"data":"Features (18 channels): x, y, z, dyn_prop, id, rcs, vx, vy, vx_comp, vy_comp, ...\n"}
+,{"stream_name":"stdout","time":27.020060589,"data":"Merged radar points: 241 points from 5 sensors\n"}
+,{"stream_name":"stdout","time":27.020084899,"data":"Point features shape: (18, 241)\n"}
+,{"stream_name":"stdout","time":28.206413392,"data":"Static points (speed \u003c 0.5 m/s): 227\n"}
+,{"stream_name":"stdout","time":28.206464602,"data":"Moving points (speed \u003e= 0.5 m/s): 14\n"}
+,{"stream_name":"stdout","time":30.458699653,"data":"Rendered 48 3D bounding boxes on front camera\n"}
+,{"stream_name":"stdout","time":36.925464553,"data":"LiDAR points: 34688\n"}
+,{"stream_name":"stdout","time":36.925507376,"data":"Point features: 4 (x, y, z, intensity)\n"}
+,{"stream_name":"stdout","time":36.925514213,"data":"X range: [-98.3, 88.0] m\n"}
+,{"stream_name":"stdout","time":36.925518938,"data":"Y range: [-88.1, 59.9] m\n"}
+,{"stream_name":"stdout","time":36.925523863,"data":"Z range: [-30.5, 15.3] m\n"}
+,{"stream_name":"stdout","time":39.303538174,"data":"LiDAR: 34,688 points vs Radar: 241 points\n"}
+,{"stream_name":"stdout","time":39.303579784,"data":"Density ratio: 144x more LiDAR points\n"}
+,{"stream_name":"stdout","time":40.170635323,"data":"Single sweep radar points: 241\n"}
+,{"stream_name":"stdout","time":40.170666302,"data":"10-sweep radar points:     2431\n"}
+,{"stream_name":"stdout","time":40.170673145,"data":"Densification factor:      10.1x\n"}
+,{"stream_name":"stdout","time":44.219910364,"data":"Total object instances across all samples: 18538\n"}
+,{"stream_name":"stdout","time":56.05784464,"data":"Total radar points analyzed: 39611\n"}
+,{"stream_name":"stdout","time":57.562302116,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":57.56233389,"data":"DATA EXPLORATION SUMMARY\n"}
+,{"stream_name":"stdout","time":57.562340116,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":57.562346069,"data":"\n"}
+,{"stream_name":"stdout","time":57.562351529,"data":"Dataset:\n"}
+,{"stream_name":"stdout","time":57.562356083,"data":"  Scenes: 10\n"}
+,{"stream_name":"stdout","time":57.562367505,"data":"  Keyframes: 404\n"}
+,{"stream_name":"stdout","time":57.562373642,"data":"  Total annotations: 18538\n"}
+,{"stream_name":"stdout","time":57.56241504,"data":"\n"}
+,{"stream_name":"stdout","time":57.562419355,"data":"Radar:\n"}
+,{"stream_name":"stdout","time":57.562422727,"data":"  Sensors: 5 (360Â° coverage)\n"}
+,{"stream_name":"stdout","time":57.562426999,"data":"  Points per frame (single sweep): ~241\n"}
+,{"stream_name":"stdout","time":57.562430344,"data":"  Points per frame (10 sweeps): ~2431\n"}
+,{"stream_name":"stdout","time":57.562433756,"data":"  Features: 18 (x,y,z,dyn_prop,id,rcs,vx,vy,vx_comp,vy_comp,...)\n"}
+,{"stream_name":"stdout","time":57.562437168,"data":"  Key advantage: Doppler velocity + weather robustness\n"}
+,{"stream_name":"stdout","time":57.562440695,"data":"\n"}
+,{"stream_name":"stdout","time":57.562444048,"data":"LiDAR:\n"}
+,{"stream_name":"stdout","time":57.562448969,"data":"  Sensors: 1 (LIDAR_TOP)\n"}
+,{"stream_name":"stdout","time":57.56245589,"data":"  Points per frame: ~34,688\n"}
+,{"stream_name":"stdout","time":57.562458256,"data":"  Features: 4 (x, y, z, intensity)\n"}
+,{"stream_name":"stdout","time":57.562460477,"data":"  Density ratio: ~143x more than radar\n"}
+,{"stream_name":"stdout","time":57.56246266,"data":"\n"}
+,{"stream_name":"stdout","time":57.562464745,"data":"Camera:\n"}
+,{"stream_name":"stdout","time":57.562466955,"data":"  Sensors: 6 (360Â° surround view)\n"}
+,{"stream_name":"stdout","time":57.562469689,"data":"  Resolution: 1600x900\n"}
+,{"stream_name":"stdout","time":57.562472059,"data":"\n"}
+,{"stream_name":"stdout","time":57.562474229,"data":"Key observations for model design:\n"}
+,{"stream_name":"stdout","time":57.562476623,"data":"  1. Radar is very sparse â€” multi-sweep aggregation is essential\n"}
+,{"stream_name":"stdout","time":57.56247908,"data":"  2. Radar provides unique velocity info â€” use vx_comp, vy_comp as features\n"}
+,{"stream_name":"stdout","time":57.562481434,"data":"  3. RCS varies widely â€” useful for distinguishing object types\n"}
+,{"stream_name":"stdout","time":57.56248442,"data":"  4. Most radar points are static â€” filtering may help\n"}
+,{"stream_name":"stdout","time":57.562503965,"data":"  5. Objects concentrate within 50m â€” set BEV grid accordingly\n"}
+,{"stream_name":"stdout","time":57.562508592,"data":"\n"}
+,{"stream_name":"stdout","time":57.562512322,"data":"Saved visualizations to /kaggle/working/:\n"}
+,{"stream_name":"stdout","time":57.562516545,"data":"  - class_distribution.png\n"}
+,{"stream_name":"stdout","time":57.562520384,"data":"  - radar_bev.png\n"}
+,{"stream_name":"stdout","time":57.56252369,"data":"  - camera_front_3dboxes.png\n"}
+,{"stream_name":"stdout","time":57.562526971,"data":"  - surround_cameras.png\n"}
+,{"stream_name":"stdout","time":57.562530317,"data":"  - lidar_vs_radar_bev.png\n"}
+,{"stream_name":"stdout","time":57.562533575,"data":"  - radar_multisweep.png\n"}
+,{"stream_name":"stdout","time":57.562536827,"data":"  - multisensor_bev.png\n"}
+,{"stream_name":"stdout","time":57.562540123,"data":"  - object_analysis.png\n"}
+,{"stream_name":"stdout","time":57.562543442,"data":"  - radar_features.png\n"}
+,{"stream_name":"stderr","time":60.765662393,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":60.765693185,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":60.957094935,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":60.957122614,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":61.702132752,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":62.173432877,"data":"[NbConvertApp] Writing 6270093 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":64.508341617,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":65.57411862,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":65.574170654,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.574564419,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.57483597,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.575670201,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.577190692,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.577658686,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.578003328,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.578483658,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.578698157,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":65.579011442,"data":"[NbConvertApp] Writing 477669 bytes to __results__.html\n"}
+]
