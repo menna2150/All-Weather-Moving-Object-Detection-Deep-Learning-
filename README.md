@@ -3,6 +3,8 @@
 **A radar-first 3D detector on nuScenes Mini, built to test one hypothesis: radar-centric detection degrades gracefully under weather that collapses camera and LiDAR.**
 
 ---
+![Image Alt](https://github.com/menna2150/All-Weather-Moving-Object-Detection-Deep-Learning-/blob/13378965e589132e3225855fdcbfc6c4aa25389d/Screenshot%202026-07-11%20160123.png)
+
 
 ## Hypothesis
 
